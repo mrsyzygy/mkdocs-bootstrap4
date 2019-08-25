@@ -14,6 +14,8 @@ Copy the mkdocs_bootstrap4 folder and edit your [mkdocs.yml] file:
 ## Config Parameters
 
 * `suppress_nextprev` - Toggles the display of the common "Next" and "Prev" page links in the header.
+Favicon path: `docs/img/favicon.ico`
+Navbar logo path: `docs/img/logo.ico`
 
 ## Special Features
 
