@@ -206,8 +206,7 @@
 
       {%- block scripts %}
       <script>
-	var base_url = {{ base_url | tojson }},
-            shortcuts = {{ config.theme.shortcuts | tojson }};
+	var base_url = {{ base_url | tojson }};
       </script>
       <script src="{{ 'js/base.js'|url }}" defer></script>
       {%- for path in config['extra_javascript'] %}
